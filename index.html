@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Access to My Tools</title>
+    <style>
+        /* Base Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #f3e7e9, #e3eeff);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .header img {
+            width: 450px;
+            height: auto;
+            border-radius: 10%;
+        }
+
+        .header p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .intro h2 {
+            font-size: 1.8rem;
+            color: #222;
+            margin-bottom: 10px;
+        }
+
+        .intro p {
+            font-size: 1rem;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 700px;
+            text-align: center;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: block;
+            width: 80%;
+            margin: 10px auto;
+            padding: 12px 20px;
+            font-size: 16px;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        /* Button Colors */
+        .btn-blue { background-color: #007BFF; }
+        .btn-blue:hover { background-color: #0056b3; }
+        .btn-green { background-color: #28A745; }
+        .btn-green:hover { background-color: #218838; }
+        .btn-purple { background-color: #6F42C1; }
+        .btn-purple:hover { background-color: #5936a4; }
+        .btn-orange { background-color: #FD7E14; }
+        .btn-orange:hover { background-color: #e06a0c; }
+
+        p {
+            font-size: 14px;
+            color: #666;
+            margin: 5px 0 15px;
+        }
+
+        .credit {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #333;
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 14px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .credit:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <img src="https://i.kym-cdn.com/photos/images/newsfeed/001/090/484/940.gif" alt="Profile Picture">
+        <h1>Hi there 🖐</h1>
+        <p> I'm <strong>ADITYA</strong> aka <a href="https://twitter.com/enterlectury" target="_blank">Enterlectury</a> 🐱‍💻</p>
+    </div>
+
+    <!-- Introduction Section -->
+    <div class="intro">
+        <h2>I'm a Cyber Security Enthusiast! 💼</h2>
+        <p>
+            - I’m currently doing bug hunting.<br>
+            - Increasing skills in network security.<br>
+            - Goal: Making the internet safer.
+        </p>
+    </div>
+
+    <!-- Tools Section -->
+    <div class="container">
+        <h1>Quick Access to My Tools📡</h1>
+
+        <h2>~ Virustotal Tools ~</h2>
+        <a href="https://aditya936.github.io/vurls/" class="btn btn-blue">Vurls Tool</a>
+        <p>Takes domain name from user and generates VirusTotal API link.</p>
+
+        <a href="https://aditya936.github.io/vurl2/" class="btn btn-green">Updated Vurls</a>
+        <p>Supports multiple keys for handling huge numbers of targets.</p>
+
+        <a href="https://aditya936.github.io/virex/" class="btn btn-purple">Virex Tool</a>
+        <p>Upload VirusTotal API data and extract useful details like IPs, URLs, and sensitive data.</p>
+
+        <h2>~ Dorking ~</h2>
+        <a href="https://aditya936.github.io/git1/" class="btn btn-orange">Github Dork Tool</a>
+        <p>Generates multiple GitHub dorks (domain + sensitive dork).</p>
+
+        <a href="https://aditya936.github.io/git2/" class="btn btn-green">Updated Github Dork Tool</a>
+        <p>Uploads data from GitHub dork tool and encodes it for direct use.</p>
+
+        <a href="https://aditya936.github.io/bugbounty/" class="btn btn-blue">Bug Bounty Helper</a>
+        <p>Adjusts domain settings (adding/removing/replacing/extracting/opening).</p>
+
+        <h2>~ Browser Extension ~</h2>
+        <a href="https://github.com/aditya936/web-urls-ext" class="btn btn-purple">Web URLs Extension</a>
+        <p>A Chrome extension for generating quick links to web archives, OTX vaults, VirusTotal, etc.</p>
+    </div>
+
+    <!-- Credit Button -->
+    <a href="https://x.com/enterlectury" class="credit" target="_blank">x.com/enterlectury</a>
+</body>
+</html>
